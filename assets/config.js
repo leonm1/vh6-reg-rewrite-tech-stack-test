@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 require('dotenv').config();
 // String to print for /hello/* endpoints
 exports.GREETING = 'Hello';
