@@ -7,7 +7,7 @@
   "author": "Matt Leon",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "postinstall": "tsc",
     "start": "node dist/src/routes.js"
   },
   "devDependencies": {
