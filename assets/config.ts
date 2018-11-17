@@ -17,4 +17,4 @@ export const JWT_TEST_USR = process.env['JWT_TEST_USR'] as string;
 export const JWT_TEST_PW = process.env['JWT_TEST_PW'] as string;
 
 // Express config
-export const PORT = process.env['JWT_ISSUER_STR'] || 80;
+export const PORT = process.env['PORT'] || 80;
