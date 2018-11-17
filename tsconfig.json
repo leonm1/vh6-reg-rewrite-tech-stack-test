@@ -7,7 +7,7 @@
     "noUnusedLocals": true,
     "noFallthroughCasesInSwitch": true,
     "outDir": "./dist",
-    "lib": ["es6"]
+    "lib": ["es2015", "webworker"]
   },
   "include": ["./src/**/*.ts", "./assets/**/*.ts"]
 }
