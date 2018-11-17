@@ -1,0 +1,26 @@
+service:
+  name: authenticated-hello-world
+
+provider:
+  name: cloudflare
+  config:
+    accountId: 9010f0cbdbd67971275d4fb1a05392c7
+    zoneId: 2aed65c982e734610dbd68eedd3e072a
+    workers:
+      hello:
+        routes:
+          - matthewjleon.com/api/*
+
+plugins:
+  - serverless-cloudflare-workers
+  - serverless-plugin-typescript
+
+functions:
+  helloWorld:
+    worker: hello
+    script: handler
+    events:
+      - http:
+          url: matthewjleon.com/api/*
+          method: ANY
+    environment:

@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "esnext",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    "outDir": "./dist",
+    "lib": ["dom", "es6"]
+  },
+  "include": ["./"]
+}
