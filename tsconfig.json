@@ -9,6 +9,11 @@
     "outDir": "./dist",
     "lib": ["es2015", "webworker"]
   },
-  "include": ["./src/**/*.ts", "./assets/**/*.ts"],
-  "exclude": ["src/cloudflare-routes.ts"]
+  "include": [
+    "./heroku/**/*.ts",
+    "./assets/**/*.ts",
+    "heroku/express-routes.ts",
+    "heroku/login-handler.ts",
+    "heroku/hello-handler.ts"
+  ]
 }

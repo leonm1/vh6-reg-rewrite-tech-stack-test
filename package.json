@@ -7,9 +7,9 @@
   "author": "Matt Leon",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build src/cloudflare-routes.ts",
+    "build": "parcel build cloudflare/cloudflare-routes.ts",
     "postinstall": "tsc",
-    "start": "node dist/src/express-routes.js"
+    "start": "node dist/heroku/express-routes.js"
   },
   "devDependencies": {
     "@types/express": "^4.16.0",
