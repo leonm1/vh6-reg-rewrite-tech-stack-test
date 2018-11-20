@@ -9,5 +9,6 @@
     "outDir": "./dist",
     "lib": ["es2015", "webworker"]
   },
-  "include": ["./src/**/*.ts", "./assets/**/*.ts"]
+  "include": ["./src/**/*.ts", "./assets/**/*.ts"],
+  "exclude": ["src/cloudflare-routes.ts"]
 }
